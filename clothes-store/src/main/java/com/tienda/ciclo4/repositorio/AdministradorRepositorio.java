@@ -11,7 +11,7 @@ import java.util.Optional;
 @Repository
 public class AdministradorRepositorio {
     @Autowired
-    AdministradorCrudRepositorio administradorCrudRepositorio;
+    private AdministradorCrudRepositorio administradorCrudRepositorio;
 
     public List<Administrador> getAll(){
         return (List<Administrador>) administradorCrudRepositorio.findAll();

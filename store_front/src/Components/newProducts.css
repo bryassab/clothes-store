@@ -1,0 +1,35 @@
+.base {
+    background-color: rgba(238, 238, 238, 0.781);
+    height: 100vh;
+}
+
+.nuevoProducto {
+    background-color: white;
+    width: 90%;
+    height: 80vh;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 10vh;
+
+
+}
+
+.actualizarProducto {
+    background-color: white;
+    width: 90%;
+    height: 80vh;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+h3 {
+    text-align: center;
+}
+
+.formulario {
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
